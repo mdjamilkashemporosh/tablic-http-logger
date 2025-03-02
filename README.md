@@ -24,7 +24,7 @@ A solid HTTP logger middleware for **Express.js** applications, fully compatible
 You can install the logger middleware using npm or yarn:
 
 ```bash
-npm install http-logger
+npm i tablic-http-logger
 ```
 
 ## Available Configuration Options
@@ -53,7 +53,7 @@ You can customize the logger by passing options to the `createHttpLogger` functi
 
 ```javascript
 const express = require('express');
-const { createHttpLogger } = require('http-logger');
+const { createHttpLogger } = require('tablic-http-logger');
 
 const app = express();
 
@@ -88,7 +88,7 @@ app.listen(3000, () => {
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
-import { createHttpLogger } from 'http-logger';
+import { createHttpLogger } from 'tablic-http-logger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
