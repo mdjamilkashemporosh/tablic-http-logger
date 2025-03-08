@@ -1,8 +1,21 @@
 {
   "name": "tablic-http-logger",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "main": "src/index.js",
-  "keywords": [],
+  "keywords": [
+    "http",
+    "logger",
+    "express",
+    "nestjs",
+    "middleware",
+    "logging",
+    "http-logger",
+    "express-middleware",
+    "nestjs-middleware",
+    "request-logger",
+    "table-logger",
+    "logging-middleware"
+  ],
   "author": "MD  Jamil Kashem Porosh",
   "license": "MIT",
   "description": "A solid HTTP logger middleware for Express.js applications, also fully compatible with NestJS. This logger provides customizable, detailed logs with fields such as timestamp, HTTP method, URL, status, response time, client IP, user-agent, and more. The log output is structured in a table-like format, allowing dynamic control over visible fields and timestamp formatting.",
